@@ -14,6 +14,14 @@
       console.log(names.length)
       console.log(names[names.length - 1])
 
+      names.push('lux')
+      console.log(names)
+      const names2 = [...names, 'lux']
+      names.unshift('poppy')
+      console.log(names)
+      const names3 = ['poppy', ...names]
+      console.log(names3)
+
       // const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
       // console.log(numbers);
